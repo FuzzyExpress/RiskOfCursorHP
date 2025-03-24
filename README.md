@@ -9,24 +9,24 @@ This Github Repo contains the mod source.
 
 This is the 3rd iteration of this mod, check out the others:
 
-    - TModLoader: https://github.com/FuzzyExpress/CursorHP
-    - Minecraft Forge: { unpublished }
+- TModLoader: https://github.com/FuzzyExpress/CursorHP
+- Minecraft Forge: { unpublished }
 
 Notes & issues:
 
-    - Config is only partially implemented.
-    - Only tested with Huntress, other character features will be missing.
-    - Might not work in multiplayer as a client only mod.
-    - Might cuase lag.
+- Config is only partially implemented.
+- Only tested with Huntress, other character features will be missing.
+- Might not work in multiplayer as a client only mod.
+- Might cuase lag.
 
 Credits:
 
-    Starting info: https://github.com/risk-of-thunder/R2Wiki/wiki
+- Starting info: https://github.com/risk-of-thunder/R2Wiki/wiki
 
 Requires:
 
-    - Risk of Rain 2
-    - BepInEx
-    - Risk of Options
+- Risk of Rain 2
+- BepInEx
+- Risk of Options
 
 
