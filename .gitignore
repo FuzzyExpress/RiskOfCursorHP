@@ -1,0 +1,6 @@
+# .vscode
+*/bin
+*/obj
+*Properties
+build-output
+RiskOfOptions.dll

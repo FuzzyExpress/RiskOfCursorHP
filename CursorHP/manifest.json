@@ -1,0 +1,12 @@
+{
+    "name": "CursorHP",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/fuzzyexpress/CursorHP",
+    "description": "Displays a health ring around your crosshair",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2113",
+        "tristanmcpherson-R2API-5.0.5",
+        "Rune580-Risk_Of_Options-2.7.1"
+    ],
+    "client_only": true
+} 

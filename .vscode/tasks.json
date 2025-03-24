@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "build",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "deploy",
+            "command": "cp",
+            "type": "shell",
+            "args": [
+                "./CursorHP/bin/Debug/netstandard2.1/CursorHP.dll",
+                "/home/${env:USER}/.config/r2modmanPlus-local/RiskOfRain2/profiles/Weeee/BepInEx/plugins/FuzzyExpress-CursorHP/CursorHP.dll"
+            ],
+            "group": "build"
+        }
+    ]
+}
